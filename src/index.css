@@ -52,7 +52,7 @@ code {
   padding: 30px;
 }
 
-todo-item {
+.todo-item {
   display: flex;
   justify-content: flex-start;
   align-items: center;

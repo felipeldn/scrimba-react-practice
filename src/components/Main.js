@@ -15,11 +15,11 @@ function Main() {
   if (hours < 12) {
     timeOfDay = "morning"
     styles.color = "#04756F"
-  } else if (hours >= 12 && hours < 17) {
+  } else if (hours >= 12 && hours < 18) {
     timeOfDay = "afternoon"
     styles.color = "#2E0927"
   } else {
-    timeOfDay = "night"
+    timeOfDay = "evening"
     styles.color = "#D90000"
   }
 
@@ -27,7 +27,7 @@ function Main() {
     <div>
       <h1 style={styles}>Good {timeOfDay}</h1>
 
-      <p>My name is {`${firstName} ${lasttName}`}</p>
+      <p style={styles}> My name is {`${firstName} ${lasttName}`}</p>
     </div>
     )
 }
