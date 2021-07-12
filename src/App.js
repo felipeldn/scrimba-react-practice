@@ -6,6 +6,8 @@ import Footer from './components/Footer.js';
 import TodoItem from './components/TodoItem.js'
 import todosData from './components/todosData.js'
 
+//handleChange practice
+
 class App extends React.Component {
     constructor() {
       super()
