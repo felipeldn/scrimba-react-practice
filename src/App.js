@@ -30,7 +30,6 @@ class App extends React.Component {
           todos: updatedTodos
         }
       })
-      // console.log(id, "change")
     }
 
     render() {
