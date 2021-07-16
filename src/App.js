@@ -6,8 +6,6 @@ import Footer from './components/Footer.js';
 import TodoItem from './components/TodoItem.js'
 import todosData from './components/todosData.js'
 
-//handleChange practice
-
 class App extends React.Component {
     constructor() {
       super()
@@ -35,7 +33,7 @@ class App extends React.Component {
     render() {
 
       const toDoItems = this.state.todos.map(item =>
-          <TodoItem key={item.id} item={item}
+          <TodoItem key= {item.id} item={item}
           handleChange={this.handleChange}/>)
       return(
         <div>
