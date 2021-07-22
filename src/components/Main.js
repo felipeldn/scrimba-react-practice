@@ -23,6 +23,8 @@ function Main() {
     styles.color = "#D90000"
   }
 
+  // console.log(timeOfDay)
+
     return (
     <div>
       <h1 style={styles}>Good {timeOfDay}</h1>
